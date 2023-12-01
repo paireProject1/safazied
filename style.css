@@ -50,8 +50,8 @@ background-color: aliceblue;
     margin: 1em auto 2em;
     border: 10px solid #F0F0FF;
     overflow: hidden;
-    /* masque tout ce qui dépasse */
-    box-shadow: 0 .25em .5em #CCC, inset 0 0 1em .25em #CCC;
+   
+    
 }
 
 header nav {
@@ -134,4 +134,5 @@ form{
   text-align: center;
 top: 30px;
   left: 300px;
+  position:left;
 }
