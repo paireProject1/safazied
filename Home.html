@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>library Management</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+</head>
+
+<body>
+  <header id="header1">
+    <h1 id="def">
+      <center>library Management </center>
+    </h1>
+    <nav>
+      <ul>
+        <li><a>Accueil</a>
+          <ul>
+          </ul>
+        </li>
+        <li><a>Menu</a>
+          <ul>
+            <li><a id="stock">Storage book</a></li>
+            <li><a href="update.html">Update Data</a></li>
+          </ul>
+        </li>
+        <li><a>A DETERMINER</a>
+          <ul>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <form id="form1">
+    <div>
+      <h2>Title :</h2><input type="text" id="title" size="50" rows="5" placeholder="write the title here">
+      <h2>author:</h2><input type="text" id="author" size="50" rows="5" placeholder="write the author here ">
+      <h2>Price:</h2><input type="text" id="price" size="50" rows="5" placeholder="write the price here"><br><br>
+      <div class="btn">
+        <button type="button" onclick=ajouterDonnee()>Valider</button>
+        <input type="reset" value="Annuler">
+        <a href="Home.html" id="retour"><button type="button" onclick=display() >Retour</button></a>
+      </div>
+    </div>
+  </form>
+  <script src="main.js"></script>
+  <footer>
+  <div id="acc">
+  <h2>Un rien peut tout changer</h2><img src="img1.jpeg">
+  </div>
+  </footer>
+</body>
+</head>
+
+</html>
